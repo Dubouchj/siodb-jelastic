@@ -9,7 +9,7 @@ JPS package to deploy Siodb into Jelastic.
 In order to get this solution instantly deployed, click the "Deploy" button bellow, specify your email address within the widget and click on "Install". 
 You will receive an email to confirm the installation of your Siodb.
 
-[![Deploy to Hidora](images/deploy-to-hidora.png)](https://jelastic.com/install-application/?manifest=https://github.com/siodb/siodb-jelastic/raw/master/manifest.yaml)
+[![Deploy to Hidora](images/deploy-to-hidora.png)](https://jelastic.com/install-application/?manifest=https://github.com/siodb/siodb-jelastic/raw/master/manifest.yaml) <!-- .element height="50%" width="50%" -->
 
 To deploy this package to Jelastic Private Cloud, import [this JPS manifest](manifest.yaml) within your dashboard ([detailed instruction](https://docs.jelastic.com/environment-import)).
 
