@@ -10,5 +10,7 @@ In order to get this solution instantly deployed, click the "Deploy" button bell
 
 [![Deploy to Jelastic PaaS](images/deploy-to-jelastic.png)](https://jelastic.com/install-application/?manifest=https://github.com/siodb/siodb-jelastic/raw/master/manifest.yaml)
 
+<input type="text" id="name" name="name"/>
+
 To deploy this package to Jelastic Private Cloud, import [this JPS manifest](manifest.yaml) within your dashboard ([detailed instruction](https://docs.jelastic.com/environment-import)).
 
