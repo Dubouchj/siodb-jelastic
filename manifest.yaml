@@ -16,8 +16,18 @@ nodes:
     image: siodb/siodb
 
 onInstall:
-  cmd [sqldb]: cat /home/siodb/.ssh/id_rsa
+  - cmd[sqldb]:
+     - cat /home/siodb/.ssh/id_rsa
 
+  - api:
+    - method: environment.control.AddEndpoint
+      params:
+        envName: ${env.envName}
+        protocol: "TCP"        
+        privatePort: 5000
+        nodeId: ${nodes.sqldb.id}
+        name: EndPoint5000
+        
 success:
   email: true
   text: |
